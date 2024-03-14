@@ -1,0 +1,49 @@
+¿Cuáles son los tipos de Datos en Python?
+
+Boolean: da valores de verdadero o falso. Se suelen usar con los condicionales.
+
+Numérico: como el mismo nombre indica, números. Pueden ser de diferentes tipos. Por ejemplo: decimales, enteros, números de punto flotante, números en forma fraccional como.
+
+String: sería una colección de caracteres alphanuméricos u otro. Se definen en Python entre ‘’ o entre “”.
+
+Lista: es una colección de elemento que pueden ser de diferentes tipos de datos. Se delimitan entre [] y se separan por , entre ellos. Las listas pueden a su vez ser elementos dentro de otras listas.
+
+None: elemento nulo, vacío. Este tipo de dato es característico de los lenguajes de programación dinámicos.
+
+Bytes: no sé definirlo, lo que hemos visto es que es importante en desarrollo de Python más avanzado.
+
+¿Qué tipo de convención de nomenclatura deberíamos utilizar para las variables en Python?
+
+En general el consenso sería usar minúsculas y separar las palabras con _.
+
+Por ejemplo: data_collection = [‘Hello’, ‘11’, ‘Miguel’]
+
+¿Qué es un Heredoc en Python?
+
+Es una cadena múltiple. Se escribe entre “ “ “  ” ” ” o entre ‘‘‘ ’’’. La diferencia entre una cadena y una cadena múltiple es que la segunda se escribe en líneas sucesivas, dando a entender que hay más de una cadena.
+
+Ejemplo:
+
+“““Hola
+Esto es
+Una cadena
+multiple”””
+
+¿Qué es una interpolación de cadenas?
+
+La capacidad de poder escribir código Python dentro de las cadenas. Se puede emplear cualquier tipo de código, ya sea una variable, otra cadena, una ecuación, etc. Para emplearlo se usa el caractere f. 
+
+Ejemplo:
+
+precio = 253.5
+cadena_interpolada = f’El precio es de{precio}’
+
+¿Cuándo deberíamos usar comentarios en Python?
+
+En ocasiones muy puntuales; usar comentarios para mantener el código organizado y cuando queramos poner comentarios automáticos, si el código empleado lo permite.
+
+¿Cuáles son las diferencias entre aplicaciones monolíticas y de microservicios?
+
+Las monolíticas tienen una única base de datos y todos los servicios van al mismo servidor. El equipo también es el mismo, está centralizado. Son sencillas de realizar y rápidas en su uso, pero complicadas de mantener si no se hacen bien desde cero.
+
+Las de microservicios tienen diferentes servicios, aplicaciones que se conectan entre sí mediante APIs. Cada servicio es individual, puede estar en diferentes localizaciones y se puede modificar sin alterar el resto de aplicaciones. Son más complejas de crear que las monolíticas y pueden ser más lentas al tener que conectarse con más bases de datos, pero son más sencillas de mantener al estar cada servicio separado.
